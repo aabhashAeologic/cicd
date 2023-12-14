@@ -7,6 +7,12 @@ app.use(express.json());
 app.use(cors());
 
 
+app.get("/",(req,res)=>{
+  res.json({
+    message:"hello from the ci cd platform"
+  })
+})
+
 app.get("/cicd", (req, res) => {
   res.json({
     message: "welcome to cicd deployment"

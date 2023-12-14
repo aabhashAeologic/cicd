@@ -1,0 +1,12 @@
+create git repo
+initialize the github actions
+select the nodejs package of yamil
+make changes in the yamil file
+go to the settings and in actions select runner
+create new runner
+follow the steps and paste the commands in the ec2 or any webserver
+run the config command also in that given
+now do sudo ./svc.sh install
+sudo ./svc.sh start to connect it to our github repo of actions
+sudo ./svc.sh status will show the status of the actions
+install pm2 in the ec2 sudo npm i -g pm2 {pm2 is for the production like nodemon}
