@@ -10,3 +10,8 @@ now do sudo ./svc.sh install
 sudo ./svc.sh start to connect it to our github repo of actions
 sudo ./svc.sh status will show the status of the actions
 install pm2 in the ec2 sudo npm i -g pm2 {pm2 is for the production like nodemon}
+
+
+// deleting the runner
+sudo ./svc.sh uninstall
+after this run the command given on popup box during deletion in the github runner
