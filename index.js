@@ -9,7 +9,7 @@ app.use(cors());
 
 app.get("/",(req,res)=>{
   res.json({
-    message:"hello from the ci cd platform"
+    message:"hello from the ci cd platform simulation"
   })
 })
 
